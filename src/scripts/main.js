@@ -69,9 +69,10 @@ tbody.addEventListener('dblclick', (e) => {
   const cell = e.target.closest('td');
 
   if (!cell) {
+    return;
   }
 
-  // console.log('Double click detected on cell:', cell.textContent);
+  console.log('Double click detected on cell:', cell.textContent);
 });
 
 // Додаємо форму для додавання нового рядка
