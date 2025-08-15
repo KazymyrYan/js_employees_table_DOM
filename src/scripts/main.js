@@ -1,5 +1,6 @@
 'use strict';
 
+// Отримуємо заголовки та рядки таблиці
 const tHeads = document.querySelectorAll('thead th');
 let tRows = document.querySelectorAll('tbody tr');
 let lastIndex = null;
