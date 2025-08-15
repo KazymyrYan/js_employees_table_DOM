@@ -16,7 +16,6 @@ tHeads.forEach((th) => {
     } else {
       sortAsc = true;
     }
-
     lastIndex = index;
     sortRows(index);
   });
